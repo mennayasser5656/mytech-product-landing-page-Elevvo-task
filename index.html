@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet MyTech, a simple workspace to help teams plan projects, collaborate, and stay productive.">
+  <title>MyTech — Work smarter, together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MyTech home"><span class="brand-mark">M</span><span>mytech<span class="brand-period">.</span></span></a>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">☾ <span>Dark mode</span></button>
+      <a class="button button-small button-primary header-cta" href="#pricing">Get started <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR WORKSPACE, REIMAGINED</p>
+        <h1>Make room for<br><span>your best work.</span></h1>
+        <p class="hero-description">Bring projects, people, and ideas together in one beautifully simple workspace. Less busywork. More progress.</p>
+        <div class="hero-actions">
+          <a href="#pricing" class="button button-primary">Get started for free <span aria-hidden="true">→</span></a>
+          <a href="#features" class="text-link"><span class="play-icon" aria-hidden="true">▶</span> Explore features</a>
+        </div>
+        <div class="social-proof"><div class="avatar-stack" aria-hidden="true"><span>J</span><span>A</span><span>M</span><span>K</span></div><p><strong>10,000+</strong> people work smarter with MyTech</p></div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a project dashboard">
+        <div class="visual-glow"></div>
+        <div class="dashboard-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>Workspace overview</span><span class="window-more">•••</span></div>
+          <div class="dashboard-body">
+            <aside class="dashboard-sidebar"><div class="sidebar-logo">✳</div><span class="side-icon active">▦</span><span class="side-icon">◷</span><span class="side-icon">♧</span><span class="side-icon">⚙</span><div class="sidebar-avatar">M</div></aside>
+            <div class="dashboard-content">
+              <div class="dashboard-heading"><div><small>MONDAY, OCTOBER 14</small><h3>Good morning, Menna <span>✦</span></h3></div><span class="mini-add">+</span></div>
+              <div class="stat-grid"><div class="stat-card"><span>Active projects</span><strong>12</strong><small class="positive">↗ 18% this month</small></div><div class="stat-card"><span>Tasks completed</span><strong>84<span class="stat-total">/100</span></strong><div class="progress-track"><i></i></div></div></div>
+              <div class="task-panel"><div class="task-heading"><strong>My tasks</strong><span>View all →</span></div><div class="task-row"><span class="task-check checked">✓</span><span>Finalize landing page</span><span class="task-tag purple">Design</span></div><div class="task-row"><span class="task-check"></span><span>Review team feedback</span><span class="task-tag blue">Review</span></div><div class="task-row"><span class="task-check"></span><span>Prepare weekly update</span><span class="task-tag green">Planning</span></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-note"><span class="note-check">✓</span><div><strong>You're on a roll!</strong><small>5 tasks completed today</small></div></div>
+        <div class="floating-badge"><span>✦</span> Made for momentum</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Trusted by teams"><p>HELPING GREAT TEAMS DO GREAT THINGS</p><div class="trust-logos"><span>◈ northstar</span><span>◉ orbit</span><span>✳ vertex</span><span>▰ layers</span><span>✦ brightside</span></div></section>
+
+    <section class="features section-shell section-padding" id="features">
+      <div class="section-heading"><p class="eyebrow">BUILT FOR YOUR FLOW</p><h2>Everything you need.<br><span>Nothing you don't.</span></h2><p>Tools that keep your team connected, focused, and moving in the same direction.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon icon-violet">↗</div><h3>Fast performance</h3><p>Move from idea to done without waiting around. A smooth workspace keeps your momentum going.</p><a href="#pricing" class="card-link">Explore feature <span>→</span></a></article>
+        <article class="feature-card"><div class="feature-icon icon-mint">⌑</div><h3>Secure by design</h3><p>Your work deserves care. Keep information organized with privacy-minded tools and controls.</p><a href="#pricing" class="card-link">Explore feature <span>→</span></a></article>
+        <article class="feature-card"><div class="feature-icon icon-blue">☁</div><h3>Cloud sync</h3><p>Your projects stay in reach, so you can pick up where you left off from any device.</p><a href="#pricing" class="card-link">Explore feature <span>→</span></a></article>
+        <article class="feature-card"><div class="feature-icon icon-peach">▣</div><h3>Work anywhere</h3><p>A flexible, responsive workspace that feels right at home on desktop, tablet, or mobile.</p><a href="#pricing" class="card-link">Explore feature <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="testimonial-section section-padding" id="testimonials">
+      <div class="section-shell testimonial-layout"><div class="testimonial-intro"><p class="eyebrow">KIND WORDS, REAL MOMENTUM</p><h2>Good work speaks<br><span>for itself.</span></h2><p>Teams use MyTech to spend less time managing work and more time making it matter.</p><div class="rating"><span>★★★★★</span><strong>4.9/5</strong><small>from happy users</small></div></div>
+        <div class="testimonial-grid"><article class="quote-card"><div class="quote-stars">★★★★★</div><blockquote>“MyTech made our daily workflow feel effortless. Everything is finally in one place.”</blockquote><div class="quote-person"><span class="person-avatar avatar-lilac">M</span><div><strong>Menna Y.</strong><small>Product designer</small></div></div></article><article class="quote-card quote-offset"><div class="quote-stars">★★★★★</div><blockquote>“Our team is more organized, and we spend far less time chasing updates.”</blockquote><div class="quote-person"><span class="person-avatar avatar-peach">Y</span><div><strong>Yasser A.</strong><small>Team lead</small></div></div></article><article class="quote-card"><div class="quote-stars">★★★★★</div><blockquote>“A thoughtful, easy-to-use tool that gives us more time for the work that matters.”</blockquote><div class="quote-person"><span class="person-avatar avatar-mint">M</span><div><strong>Mohannad K.</strong><small>Small business owner</small></div></div></article></div>
+      </div>
+    </section>
+
+    <section class="pricing section-shell section-padding" id="pricing">
+      <div class="section-heading"><p class="eyebrow">SIMPLE, TRANSPARENT PRICING</p><h2>A plan for every<br><span>kind of ambition.</span></h2><p>Start small, find your rhythm, and upgrade whenever you're ready.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card plan" data-plan="Basic"><div class="plan-top"><span class="plan-label">STARTER</span><h3>Basic</h3><p>For personal projects and new ideas.</p></div><p class="price"><strong>$9</strong><span>/ month</span></p><button class="button button-outline choose-btn" type="button">Choose Basic <span>→</span></button><div class="plan-divider"></div><p class="included-title">WHAT'S INCLUDED</p><ul><li>✓ Up to 5 projects</li><li>✓ Core productivity tools</li><li>✓ Basic support</li></ul></article>
+        <article class="price-card plan plan-featured" data-plan="Pro"><div class="popular-label">MOST POPULAR</div><div class="plan-top"><span class="plan-label">FOR GROWING TEAMS</span><h3>Pro</h3><p>For teams ready to do their best work.</p></div><p class="price"><strong>$29</strong><span>/ month</span></p><button class="button button-primary choose-btn" type="button">Choose Pro <span>→</span></button><div class="plan-divider"></div><p class="included-title">EVERYTHING IN BASIC, PLUS</p><ul><li>✓ Unlimited projects</li><li>✓ Premium support</li><li>✓ Team collaboration</li><li>✓ Advanced reporting</li></ul></article>
+        <article class="price-card plan" data-plan="Enterprise"><div class="plan-top"><span class="plan-label">BUILT TO SCALE</span><h3>Enterprise</h3><p>For organizations with bigger needs.</p></div><p class="price"><strong>$99</strong><span>/ month</span></p><button class="button button-outline choose-btn" type="button">Choose Enterprise <span>→</span></button><div class="plan-divider"></div><p class="included-title">EVERYTHING IN PRO, PLUS</p><ul><li>✓ Dedicated account manager</li><li>✓ Custom solutions</li><li>✓ Priority assistance</li></ul></article>
+      </div>
+      <p class="pricing-note">No credit card required to explore. This is a demo landing page; plan selection does not process payments.</p>
+    </section>
+
+    <section class="final-cta section-shell"><div class="cta-orb orb-one"></div><div class="cta-orb orb-two"></div><div class="cta-content"><p class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p><h2>Ready to make work<br>feel <span>like progress?</span></h2><p>Bring your ideas to life with a workspace that works as hard as you do.</p><a href="#pricing" class="button button-light">Find your plan <span>→</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">M</span><span>mytech<span class="brand-period">.</span></span></a><p>Make room for your best work.</p><div class="footer-links"><a href="#features">Features</a><a href="#testimonials">Testimonials</a><a href="#pricing">Pricing</a></div><small>© <span id="current-year">2026</span> MyTech Product. Demo project for portfolio purposes.</small></footer>
+  <div class="toast" id="selection-toast" role="status" aria-live="polite"></div>
+</body>
+</html>
